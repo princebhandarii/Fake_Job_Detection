@@ -1,0 +1,12 @@
+streamlit>=1.35
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+scipy>=1.11
+
+# Only needed if your best_fake_job_model.pkl is XGBoost or LightGBM
+# (pickle needs the same library installed to unpickle the model object).
+# Comment out whichever one you didn't use.
+xgboost>=2.0
+lightgbm>=4.0
